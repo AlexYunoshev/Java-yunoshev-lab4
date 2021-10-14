@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.Radio.IRadio</OriginalElement>
+  <nodes>
+    <node x="1108.7013584769516" y="-81.69240024062566">com.company.BreadMaker.BreadCookingModes</node>
+    <node x="186.6833333333334" y="701.676591258982">com.company.AC.ACModes</node>
+    <node x="992.1833333333334" y="871.132921758851">com.company.BreadMaker.BreadMaker</node>
+    <node x="1150.1833333333334" y="522.3146180068177">com.company.KitchenHood.IHood</node>
+    <node x="699.6833333333334" y="915.132921758851">com.company.TV.TV</node>
+    <node x="1130.1833333333334" y="232.6921997192701">com.company.KitchenHood.Hood</node>
+    <node x="473.3830868591672" y="-81.6924002406256">com.company.BreadMaker.DoughCookingModes</node>
+    <node x="757.1833333333334" y="232.6921997192701">com.company.Device.Device</node>
+    <node x="449.6833333333334" y="948.132921758851">com.company.Radio.Radio</node>
+    <node x="757.1833333333334" y="-81.69240024062566">com.company.Device.IDevice</node>
+    <node x="192.58284038500096" y="53.43118540105547">com.company.Main</node>
+    <node x="186.6833333333334" y="1322.212467116453">com.company.AC.IAirConditioner</node>
+    <node x="456.83627716662016" y="1321.2036247660294">com.company.Radio.IRadio</node>
+    <node x="186.6833333333334" y="948.132921758851">com.company.AC.AirConditioner</node>
+    <node x="702.6833333333334" y="1321.2036247660294">com.company.TV.ITV</node>
+    <node x="458.8830868591672" y="111.34303683719111">com.company.DeviceManager</node>
+    <node x="189.08284038500096" y="455.22026075911276">com.company.TV.ChannelList</node>
+    <node x="192.58284038500096" y="199.32572308008412">com.company.Radio.StationList</node>
+    <node x="991.9774415455549" y="1343.2366062017286">com.company.BreadMaker.IBreadMaker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Radio.Radio" target="com.company.Device.Device" relationship="GENERALIZATION">
+      <point x="57.5" y="-128.0" />
+      <point x="622.1833333333334" y="840.132921758851" />
+      <point x="872.1833333333334" y="840.132921758851" />
+      <point x="872.1833333333334" y="771.846099859635" />
+      <point x="872.1833333333334" y="771.846099859635" />
+      <point x="0.0" y="238.0" />
+    </edge>
+    <edge source="com.company.BreadMaker.BreadMaker" target="com.company.BreadMaker.IBreadMaker" relationship="REALIZATION">
+      <point x="-0.20589178777845518" y="201.50996583143524" />
+      <point x="0.0" y="127.0" />
+    </edge>
+    <edge source="com.company.TV.TV" target="com.company.TV.ITV" relationship="REALIZATION">
+      <point x="-1.2561329463215998" y="160.77183711532507" />
+      <point x="813.4272003870118" y="1393.853867183695" />
+      <point x="814.6833333333334" y="1393.853867183695" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="com.company.KitchenHood.Hood" target="com.company.KitchenHood.IHood" relationship="REALIZATION">
+      <point x="39.072798930066256" y="121.41287015945363" />
+      <point x="1284.2561322633996" y="550.697540440499" />
+      <point x="1255.1833333333334" y="550.697540440499" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="com.company.BreadMaker.BreadMaker" target="com.company.Device.Device" relationship="GENERALIZATION">
+      <point x="-92.0" y="-205.0" />
+      <point x="1084.1833333333334" y="840.132921758851" />
+      <point x="872.1833333333334" y="840.132921758851" />
+      <point x="872.1833333333334" y="771.846099859635" />
+      <point x="872.1833333333334" y="771.846099859635" />
+      <point x="0.0" y="238.0" />
+    </edge>
+    <edge source="com.company.AC.AirConditioner" target="com.company.AC.IAirConditioner" relationship="REALIZATION">
+      <point x="-2.380270153633546" y="131.83418339047353" />
+      <point x="305.80306317969985" y="1233.7789524528685" />
+      <point x="305.6833333333334" y="1233.7789524528685" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="com.company.KitchenHood.Hood" target="com.company.Device.Device" relationship="GENERALIZATION">
+      <point x="-79.77199053510367" y="125.62516846433903" />
+      <point x="1165.4113427982297" y="446.4367184211519" />
+      <point x="1057.3385438681635" y="446.4367184211519" />
+      <point x="1057.3385438681635" y="840.132921758851" />
+      <point x="872.1833333333334" y="840.132921758851" />
+      <point x="0.0" y="238.0" />
+    </edge>
+    <edge source="com.company.TV.TV" target="com.company.Device.Device" relationship="GENERALIZATION">
+      <point x="57.5" y="-161.0" />
+      <point x="872.1833333333334" y="809.346099859635" />
+      <point x="872.1833333333334" y="809.346099859635" />
+      <point x="0.0" y="238.0" />
+    </edge>
+    <edge source="com.company.Device.Device" target="com.company.Device.IDevice" relationship="REALIZATION">
+      <point x="0.0" y="-238.0" />
+      <point x="872.1833333333334" y="261.1537998796872" />
+      <point x="872.1833333333334" y="261.1537998796872" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="com.company.AC.AirConditioner" target="com.company.Device.Device" relationship="GENERALIZATION">
+      <point x="60.75" y="-128.0" />
+      <point x="368.9333333333334" y="921.1329217588509" />
+      <point x="424.60913077431377" y="921.1329217588509" />
+      <point x="424.60913077431377" y="825.4491949612298" />
+      <point x="872.1833333333334" y="825.4491949612298" />
+      <point x="0.0" y="238.0" />
+    </edge>
+    <edge source="com.company.Radio.Radio" target="com.company.Radio.IRadio" relationship="REALIZATION">
+      <point x="-2.847056166713287" y="123.74728007460385" />
+      <point x="561.8362771666201" y="1487.2036247660294" />
+      <point x="0.0" y="83.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8844624447717226" showDependencies="false" x="481.0417452840743" y="232.42889706129" />
+  <SelectedNodes>
+    <node>com.company.BreadMaker.BreadCookingModes</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
