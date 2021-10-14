@@ -5,5 +5,5 @@ public enum ACModes {
     Heating,
     Ventilation,
     Dehumidification,
-    AirPurification,
+    AirPurification
 }

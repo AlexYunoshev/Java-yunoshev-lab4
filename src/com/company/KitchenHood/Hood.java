@@ -1,8 +1,6 @@
 package com.company.KitchenHood;
 
 import com.company.Device.Device;
-import com.company.Device.IDevice;
-
 
 public class Hood extends Device implements IHood{
     Integer speed;

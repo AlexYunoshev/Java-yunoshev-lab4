@@ -1,7 +1,6 @@
 package com.company.TV;
 
 import com.company.Device.Device;
-import com.company.Device.IDevice;
 
 public class TV extends Device implements ITV {
 

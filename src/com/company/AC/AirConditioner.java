@@ -1,7 +1,6 @@
 package com.company.AC;
 
 import com.company.Device.Device;
-import com.company.Device.IDevice;
 
 public class AirConditioner extends Device implements IAirConditioner {
 

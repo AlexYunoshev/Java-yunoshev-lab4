@@ -10,7 +10,6 @@ import com.company.KitchenHood.Hood;
 import com.company.Radio.Radio;
 import com.company.TV.TV;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -26,6 +25,7 @@ public class DeviceManager {
     static List<TV> TVList = new ArrayList<>();
     static Device device;
 
+
     public static void PrintDeviceTypeChoosing() {
         System.out.println("Выберите тип прибора: ");
         System.out.println("1 - кондиционер");
@@ -39,7 +39,8 @@ public class DeviceManager {
         if(list.size() > 0) {
             Integer position = 1;
             for (T listItem:list) {
-                System.out.println(position + ". " + listItem.GetFullProductDescription());
+                System.out.println(position + ". "
+                        + listItem.GetFullProductDescription());
                 position++;
             }
         }

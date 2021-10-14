@@ -1,7 +1,6 @@
 package com.company.Radio;
 
 import com.company.Device.Device;
-import com.company.Device.IDevice;
 
 public class Radio extends Device implements IRadio {
     StationList currentStation;
@@ -17,7 +16,7 @@ public class Radio extends Device implements IRadio {
         String output = "";
         output += "Радио " + GetFullProductName() + " с серийным номером " + GetSerialNumber() + "\n";
         if (GetCurrentStateOnOff() == true) {
-            output += "Радио включено, выбрана станция " + GetCurrentStation() + "с громкостью " + GetCurrentVolume() + "\n";
+            output += "Радио включено, выбрана станция " + GetCurrentStation() + " с громкостью " + GetCurrentVolume() + "\n";
         }
         else output += "Радио выключено\n";
         return output;

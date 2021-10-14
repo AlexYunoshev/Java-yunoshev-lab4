@@ -1,7 +1,6 @@
 package com.company.BreadMaker;
 
 import com.company.Device.Device;
-import com.company.Device.IDevice;
 
 public class BreadMaker extends Device implements IBreadMaker {
 

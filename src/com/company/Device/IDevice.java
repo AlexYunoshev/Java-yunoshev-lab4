@@ -12,5 +12,4 @@ public interface IDevice {
     void StopTimer();
     void SetTimer(Integer hours, Integer minutes);
     void ConsoleSetTimer();
-
 }
