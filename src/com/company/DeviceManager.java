@@ -625,15 +625,15 @@ public class DeviceManager {
     public static void CreateDevices() {
         ACList.add(new AirConditioner("AC serial 1", "Cooper Hunter", "Prima Plus"));
         ACList.add(new AirConditioner("AC serial 2", "Cooper Hunter", "Winner"));
-        //ACList.add(new AirConditioner("AC serial 3", "NeoClima", "Therminator"));
-        //ACList.add(new AirConditioner("AC serial 4", "Mitsubishi", "Classic MS-GF60"));
-        //ACList.add(new AirConditioner("AC serial 5", "Midea", "Ultimate Comfort"));
+        ACList.add(new AirConditioner("AC serial 3", "NeoClima", "Therminator"));
+        ACList.add(new AirConditioner("AC serial 4", "Mitsubishi", "Classic MS-GF60"));
+        ACList.add(new AirConditioner("AC serial 5", "Midea", "Ultimate Comfort"));
 
         breadMakersList.add(new BreadMaker("BreadMaker serial 1", "Gorenje", "BM1400E"));
         breadMakersList.add(new BreadMaker("BreadMaker serial 2", "Gorenje", "BM1600WG"));
-        //breadMakersList.add(new BreadMaker("BreadMaker serial 3", "Panasonic", "SD-2510"));
+        breadMakersList.add(new BreadMaker("BreadMaker serial 3", "Panasonic", "SD-2510"));
 
-        //hoodList.add(new Hood("Hood serial 1", "Vitek", "VM-03"));
+        hoodList.add(new Hood("Hood serial 1", "Vitek", "VM-03"));
 
         radioList.add(new Radio("Radio serial 1", "Philips", "Virtual50"));
 
